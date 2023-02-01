@@ -2,6 +2,7 @@
 import Navbar from './Navbar';
 
 import { useEffect } from 'react';
+import Form from './UnControlledForm';
 
 function App()
 {
@@ -16,8 +17,7 @@ function App()
 
     return (
         <div className="App">
-            <Navbar />
-            Welcome
+            <Form />
         </div>
     );
 }
